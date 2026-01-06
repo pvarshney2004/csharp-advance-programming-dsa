@@ -4,6 +4,17 @@ namespace Advance_Programming_DSA.Sorting
 {
     public class SortMarks
     {
+        /*
+         1. Bubble Sort - Sort Student Marks
+Problem Statement:
+A school maintains student marks in an array. Implement Bubble Sort in C# to sort the
+student marks in ascending order.
+Hint:
+● Traverse through the array multiple times.
+● Compare adjacent elements and swap them if needed.
+● Repeat the process until no swaps are required.
+
+         */
         public void Sort(int[] marks)
         {
             for(int i=0; i<marks.Length; i++)
