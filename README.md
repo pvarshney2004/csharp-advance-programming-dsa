@@ -163,6 +163,86 @@ Focuses on **Linear Search and Binary Search** techniques, including real-world 
 - Strengthening **problem-solving and algorithmic thinking**
 
 ---
+
+### 🔹 `runtime-analysis` branch
+This branch focuses on **runtime complexity analysis and performance comparison** of different algorithms and programming approaches in C#.  
+The goal is to build a **deep understanding of time complexity (Big-O notation)** by comparing **naive vs optimized solutions** using real-world datasets and scenarios.
+
+All programs in this branch are designed to **measure execution time, scalability, and efficiency**.
+
+---
+
+### 📝 Performance Analysis Problems
+
+---
+
+### 🔹 1. Search a Target in a Large Dataset
+**Objective:**  
+Compare the performance of:
+- **Linear Search** – `O(N)`
+- **Binary Search** – `O(log N)`
+
+**Description:**  
+Search for a target element in datasets of varying sizes and analyze how performance changes as data grows.
+
+---
+
+### 🔹 2. Sorting Large Data Efficiently
+**Objective:**  
+Compare sorting algorithms:
+- **Bubble Sort** – `O(N²)`
+- **Merge Sort** – `O(N log N)`
+- **Quick Sort** – `O(N log N)`
+
+**Description:**  
+Sort large datasets and analyze execution time to understand why advanced sorting algorithms outperform basic ones for large inputs.
+
+---
+
+### 🔹 3. String Concatenation Performance
+**Objective:**  
+Compare string concatenation approaches:
+- **String** – `O(N²)`
+- **StringBuilder** – `O(N)`
+- **StringBuffer** – `O(N)`
+
+**Description:**  
+Concatenate a large number of strings (e.g., one million) and measure performance differences to highlight efficient memory usage.
+
+---
+
+### 🔹 4. Large File Reading Efficiency
+**Objective:**  
+Compare file reading techniques:
+- **StreamReader**
+- **FileStream**
+
+**Description:**  
+Read a large file (≈500MB) and analyze which approach is more efficient in terms of speed and resource usage.
+
+---
+
+### 🔹 5. Recursive vs Iterative Fibonacci Computation
+**Objective:**  
+Compare Fibonacci implementations:
+- **Recursive Approach** – `O(2^N)`
+- **Iterative Approach** – `O(N)`
+
+**Description:**  
+Compute Fibonacci numbers using both methods and observe how recursion leads to exponential time complexity compared to iteration.
+
+---
+
+### 🎯 Learning Outcomes
+
+- Understand **Big-O notation through practical examples**
+- Analyze **performance trade-offs** between algorithms
+- Learn how **data size impacts execution time**
+- Write **efficient, scalable C# code**
+- Develop strong **algorithm optimization skills**
+
+---
+
 ## 👤 Author
 **Prashant Varshney**  
 B.Tech CSE (Data Analytics) 
