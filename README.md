@@ -243,6 +243,121 @@ Compute Fibonacci numbers using both methods and observe how recursion leads to 
 
 ---
 
+### 🔹 `non-linear-data-structures` branch
+This branch focuses on **non-linear data structures**, primarily **HashMap (Dictionary)**, used to model real-world problems involving **key–value relationships**.
+The implementations emphasize **abstraction, encapsulation, and polymorphism**.
+
+---
+
+## 📁 Folder Structure & Implementations
+
+---
+
+### 📂 Dictionary
+Demonstrates efficient **key-based data access and storage**.
+
+### 📝 Practice Problems
+
+---
+
+- **Inventory Management System**
+  - Maps product IDs to product details.
+  - *OOP:* Encapsulated inventory manager, polymorphic products.
+
+- **Role-Based Access Control (RBAC)**
+  - Maps users to roles and permissions.
+  - *OOP:* Abstraction via roles, polymorphic role behavior.
+
+- **Student Grade Book**
+  - Maps student roll numbers to grade reports.
+  - *OOP:* Strategy-based grading systems.
+
+- **URL Shortener Service**
+  - Maps short URLs to original long URLs.
+  - *OOP:* Interface-based storage, pluggable implementations.
+
+---
+
+### 🎯 Learning Outcomes
+
+- Understand **non-linear data structure behavior**
+- Implement **Dictionary / HashMap** efficiently
+- Model **real-world relationships using key–value pairs**
+- Apply **encapsulation and abstraction**
+- Strengthen **data-driven system design**
+
+---
+
+### 🔹 `linear-data-structures` branch
+This branch focuses on **linear data structures** where elements are arranged sequentially. It demonstrates practical implementations of **Stack, Queue and LinkedList** using **real-world use cases** while applying **Object-Oriented Programming (OOP) principles** such as abstraction, encapsulation, interfaces, and polymorphism.
+
+---
+
+## 📁 Folder Structure & Implementations
+
+---
+
+### 📂 Stack
+Demonstrates **Last-In-First-Out (LIFO)** behavior using real-world applications.
+
+### 📝 Practice Problems
+
+---
+
+- **Expression Evaluation Engine**
+  - Converts infix expressions to postfix and evaluates them.
+  - Uses stack internally for parsing and computation.
+  - *OOP:* Interface-based evaluators, encapsulated stack operations.
+
+- **Web Browser Navigation (Back / Forward)**
+  - Simulates browser tab navigation using two stacks.
+  - *OOP:* Encapsulation of navigation logic, extensible design.
+
+- **Syntax Checker for Code Editors**
+  - Validates balanced parentheses, brackets, and braces.
+  - *OOP:* Stack logic hidden inside syntax checker implementation.
+
+- **Undo Functionality in Drawing Application**
+  - Stores drawing actions and supports undo operation.
+  - *OOP:* Polymorphic drawing actions, encapsulated undo stack.
+
+---
+
+### 📂 Queue
+Demonstrates **First-In-First-Out (FIFO)** behavior using real-world systems.
+
+### 📝 Practice Problems
+
+---
+
+- **Print Job Manager**
+  - Handles print requests in arrival order.
+  - *OOP:* Encapsulated print queue, polymorphic document types.
+
+- **Ticket Booking System**
+  - Processes booking requests sequentially.
+  - *OOP:* Interface-based request handling for different transports.
+
+- **Task Dispatcher for Background Workers**
+  - Queues background tasks like uploads, analytics, and logs.
+  - *OOP:* Encapsulation of task queue, polymorphic tasks.
+
+- **Call Center Management System**
+  - Manages incoming calls and assigns them to agents.
+  - *OOP:* Interface-driven call types, hidden queue management.
+
+---
+
+### 🎯 Learning Outcomes
+
+- Understand **Stack, Queue and LinkedList** operations deeply
+- Apply **linear data structures** to real-world problems
+- Design systems using **interfaces and encapsulation**
+- Implement **polymorphism in data structure-based systems**
+- Strengthen **DSA + OOP integration**
+
+---
+
 ## 👤 Author
 **Prashant Varshney**  
 B.Tech CSE (Data Analytics) 
