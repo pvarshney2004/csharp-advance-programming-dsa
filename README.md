@@ -1,6 +1,9 @@
-# csharp-advance-programming-dsa
-This repository contains C# programs focused on Data Structures and Algorithms (DSA), organized branch-wise for systematic learning.
-The goal of this project is to strengthen problem-solving skills, algorithmic thinking, and efficient data handling in C# through hands-on practice.
+# csharp-advance-programming
+This repository contains advanced C# programs with a strong focus on Data Structures, Collections, and core language features, organized branch-wise for structured and progressive learning.
+
+The goal of this project is to strengthen problem-solving skills, algorithmic thinking, and clean C# design through hands-on practice with data structures and collections, while also mastering generics, delegates, events, lambda expressions, exceptions, custom exceptions, regular expressions, closures, and unit testing (NUnit).
+
+It emphasizes writing efficient, reusable, and maintainable C# code by applying real-world scenarios and modern programming practices.
 
 ---
 
@@ -386,6 +389,60 @@ This folder focuses on implementing **Linked List data structures** through **re
 - Design systems using **interfaces and encapsulation**
 - Implement **polymorphism in data structure-based systems**
 - Strengthen **DSA + OOP integration**
+
+---
+
+### 🔹 `delegates` branch
+This branch focuses on **C# Delegates**, demonstrating how methods can be referenced, passed, combined, and executed dynamically. The problems progress from **basic delegate usage** to **advanced concepts** like multicast delegates, callbacks, and comparisons with `Func` and `Action`.
+
+---
+
+### 📝 Practice Problems (Basic Level)
+
+- **Simple Delegate Invocation**  
+  Create a delegate that takes two integers and returns an integer.  
+  Use it to invoke methods like Add, Subtract, and Multiply.
+
+- **Delegate with Void Return Type**  
+  Define a delegate that prints messages such as Welcome, Error, and Success.
+
+- **Delegate as Method Parameter**  
+  Pass a delegate as a parameter to perform different operations on two numbers.
+
+- **Multicast Delegate**  
+  Attach multiple methods to a single delegate and observe execution order.
+
+- **Anonymous Method with Delegate**  
+  Use an anonymous method to calculate the square of a number.
+
+- **Delegate vs Func / Action**  
+  Rewrite custom delegates using:
+  - `Func<int, int, int>`
+  - `Action<string>`
+
+- **Delegate for Validation**  
+  Use delegates to validate inputs such as:
+  - Email
+  - Password
+  - Phone Number
+
+- **Delegate Chaining & Removal**  
+  Add multiple methods to a delegate and remove one at runtime.
+
+- **Callback Using Delegate**  
+  Simulate a file download process that uses a delegate callback to notify when the download is complete.
+
+---
+
+### 🎯 Learning Outcomes
+
+- Understanding **delegate declaration and invocation**
+- Using **delegates as method parameters**
+- Implementing **multicast delegates**
+- Writing **anonymous methods**
+- Comparing **custom delegates vs Func/Action**
+- Implementing **callbacks and event-like behavior**
+- Improving flexibility and decoupling in C# programs
 
 ---
 
